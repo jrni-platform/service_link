@@ -1,0 +1,23 @@
+{
+  "bbAppManifestVersion":"1.0",
+  "name": "Exmaple App that links services together",
+  "unique_name": "service_link",
+  "version": "0.1",
+  "description": "An example app that creates 'add-on-bundles' that lets you link one service to another",
+  "author": "BookingBug",
+  "licence": "GPL",
+  "tags": "home",
+  "config": true,
+  "panels": [ 
+    "bundle_panel" 
+  ],
+  "objects": [  
+     "bb.service",
+     "addon_bundle",
+     "addon_bundle_map"
+  ],
+  "script_packs": [
+  ],
+  "liquid": [
+  ]
+}

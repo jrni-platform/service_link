@@ -1,0 +1,43 @@
+
+.addon_bundle_picker-container {
+  padding: 10px;
+
+  .addon_bundle_picker-header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    input {
+      width: auto;
+    }
+  }
+
+  table {
+    margin-bottom: 10px;
+
+    th {
+      input[type="checkbox"] {
+        margin: 0 5px 0 0;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .addon_bundle_picker-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    p {
+      margin: 0 20px;
+    }
+  }
+}

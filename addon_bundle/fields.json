@@ -1,0 +1,23 @@
+{
+  "bundle_type":{
+    "key": "bundle_type",
+    "title": "Bundle Type",
+    "description": "The type of bundle",
+    "type": "string",
+    "x-schema-form": {
+      "type": "select",
+      "titleMap": [
+        { "value": "optional", "name": "Optional Add Ons" },
+        { "value": "only_one", "name": "Select any one of these add ons" },
+        { "value": "one_or_more", "name": "Select at least one of these add ons" },
+        { "value": "all", "name": "Select all of these add ons" }
+      ]    
+    },
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": ["get"]
+    }
+  }
+}

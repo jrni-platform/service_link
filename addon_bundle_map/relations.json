@@ -1,0 +1,17 @@
+
+[
+  {
+    "left":"addon_bundle_map",
+    "right":"addon_bundle",
+    "type":"has_one",
+    "drops": true,
+    "hal": true
+  },
+  {
+    "left":"addon_bundle_map",
+    "right":"bb.service",
+    "type":"has_one",
+    "drops": true,
+    "hal": true
+  }
+]
